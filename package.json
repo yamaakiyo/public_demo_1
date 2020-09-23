@@ -1,0 +1,23 @@
+{
+  "name": "public_demo_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass source/scss -o css -w --output-style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamaakiyo/public_demo_1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yamaakiyo/public_demo_1/issues"
+  },
+  "homepage": "https://github.com/yamaakiyo/public_demo_1#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

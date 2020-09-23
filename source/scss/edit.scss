@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* edit area */
+.edit_wrap {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: #55555539;
+  .edit_inner {
+    margin: auto 15px;
+    padding: 40px 10px 10px;
+    width: 100%;
+    background: #fff;
+    .edit_form {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+      .edit_item {
+        margin-bottom: 15px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      .edit_item_submit {
+        margin: 0 50px;
+        padding: 15px;
+        color: #fff;
+        background: #008000c0;
+        border-radius: 5px;
+      }
+    }
+    .delete_submit {
+      color: #666;
+      text-decoration: underline;
+    }
+  }
+}
+.link_back {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  padding: 20px;
+  border-radius: 28px;
+  background: #008000c0;
+  color: #fff;
+}

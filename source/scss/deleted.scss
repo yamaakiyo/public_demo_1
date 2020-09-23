@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* deleted_wrap */
+.deleted_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .link_back {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    padding: 20px;
+    border-radius: 28px;
+    background: #008000c0;
+    color: #fff;
+  }
+}
